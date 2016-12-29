@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1483001333 source:c:\programs\quest quest 2\main.cpp
+	<iostream>
+	<windows.h>
+	<cstdlib>
+
