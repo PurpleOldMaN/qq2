@@ -1,1 +1,58 @@
-chances
+///Made by PurpleOldMaN
+
+#include <conio.h>
+#include <iostream>
+#include <string>
+#include <ctime>            ///Libraries
+#include <windows.h>
+#include <time.h>
+#include <stdio.h>
+using namespace std;
+
+
+long sellprice;             ///What the user is gonna sell it for...
+int sell;                   ///This is what srand()is = to and will display.
+int price = sellprice;
+int wallet = 100;
+int main()
+{
+    start:
+
+    SetConsoleTitle("Selling Testing");             ///Console name
+    system("COLOR B");
+    cout << "\t\t\t\t\t\t\t\t\t\t\tWallet:" << wallet << endl;                           ///Console color
+    cout << "Enter your sell price" << endl;
+    cout << "$";
+    cin >> sellprice;
+
+    srand (time(NULL));
+                                                                            ///What the sell price is = to
+    sell = rand() & sellprice + 2;
+    if (sell>sellprice)
+    {
+        sell:
+        rand() & sellprice + 100;
+    }
+
+
+     if (sell<sellprice)
+    {
+        rand() & sellprice - 50;
+    }
+
+
+cout << "your item has sold for " << sell <<"!" <<endl;
+    if (sellprice != 0)
+    {
+        wallet = sell +wallet;
+    }
+
+    goto start;
+
+
+
+
+
+
+
+}
