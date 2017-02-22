@@ -1,0 +1,59 @@
+#include <iostream>
+#include <windows.h>
+
+using namespace std;
+
+
+        string startUpPassWord = "Terracolby";
+        long crackingOptionSelect;
+
+        void startup();
+        void logon();
+
+    void logon()
+    {
+        system("CLS");
+        cout << "\t\tCrack Tool made by PurpleOldMaN (BETA 0.0.4)\n\n" << endl;
+
+
+        cout << "\n1).Lets crack!\n" << endl;
+        cout << "2). Cracking Options\n" << endl;
+        cout << "3). Quit" << endl;
+        cin >> crackingOptionSelect;
+
+    }
+
+
+    void startup()
+    {
+        SetConsoleTitle("Crack Tool made by PurpleOldMaN (BETA 0.0.4)");
+        system("CLS");
+        system("COLOR E");
+        cout << "\nHello Colby and Jake, welcome to Jake's crack tool\n" << endl;
+        cout << "To make sure it IS colby or Jake please enter the password\n\n" << endl;
+        cout << "> ";
+        cin >> startUpPassWord;
+
+        if (startUpPassWord == "Terracolby")
+        {
+            system("CLS");
+            cout << "OK";
+            logon();
+        }
+
+    }
+
+
+    int main()
+    {
+
+
+        startup();
+        logon();
+
+
+
+
+
+    }
+ 
