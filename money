@@ -1,0 +1,240 @@
+#include <iostream>
+#include <windows.h>
+
+using namespace std;
+
+long bankSelection;
+long firstCommunityInput, firstCID, firstCPass;
+float firstCbalance = 110.65;
+void bankMenu();
+void firstCommunity();
+
+
+void firstCommunity()
+{
+
+    cout << "\t\t\t\t\tFirst Community Credit Union\n\n\n" << endl;
+    cout << "\n1). Tweak balance for selected user\n" << endl;
+    cout << "2). Remove a user\n" << endl;
+    cout << "3). Add a user\n" << endl;
+    cout << "4). Create a account hold for selected user\n" << endl;
+    cout << "5). Exit" << endl;
+    cin >> firstCommunityInput;
+
+    if (firstCommunityInput == 1)
+    {
+        system("CLS");
+        cout << "Please enter the account ID and password for the user" << endl;
+        cout << "ID:";
+        cin >> firstCID;
+        cout << " " << endl;
+        cin.get();
+        cin >> firstCPass;
+        cout << " " << endl;
+        cout << "Okay, finding " << firstCID << "\n" << endl;
+        cout << "Found" << firstCID << "\n" << endl;
+        cout << "Current balance: " << firstCbalance << endl;
+
+    }
+
+}
+
+
+
+void bankMenu()
+{
+    cout << "Hello, please select which bank you are wanting to operate from.\n\n" << endl;
+    cout << "1). First Community Credit Union\n" << endl;
+    cout << "2). First Tech Federal Credit Union\n" << endl;
+    cin >> bankSelection;
+
+
+    if (bankSelection == 1)
+    {
+        system("CLS");
+        cout << "Getting files." << endl;
+        Sleep(1000);
+        system("CLS");
+        cout << "Getting files.." << endl;
+        Sleep(1000);
+        system("CLS");
+        cout << "Getting files.." << endl;
+        Sleep(3000);
+        system("CLS");
+        cout << "Loading kernl.dll..."<< endl;
+        Sleep(10);
+        cout << "Loading bankF.dll..."<< endl;
+        Sleep(10);
+        cout << "Loading profiles.dll..."<< endl;
+        Sleep(10);
+        cout << "Loading userID(*.ASI..."<< endl;
+        Sleep(10);
+        cout << "Loading logs.txt..."<< endl;
+        Sleep(55);
+        cout << "Loading kernl2.dll..."<< endl;
+        Sleep(10);
+        cout << "Loading kernl.dll..."<< endl;
+        Sleep(10);
+        cout << "Loading bankF.dll..."<< endl;
+        Sleep(10);
+        cout << "Loading profiles.dll..."<< endl;
+        Sleep(10);
+        cout << "Loading userID(*.ASI..."<< endl;
+        Sleep(10);
+        cout << "Loading logs.txt..."<< endl;
+        Sleep(55);
+        cout << "Loading kernl2.dll..."<< endl;
+        Sleep(10);
+        cout << "Loading kernl.dll..."<< endl;
+        Sleep(10);
+        cout << "Loading bankF.dll..."<< endl;
+        Sleep(10);
+        cout << "Loading profiles.dll..."<< endl;
+        Sleep(10);
+        cout << "Loading userID(*.ASI..."<< endl;
+        Sleep(10);
+        cout << "Loading logs.txt..."<< endl;
+        Sleep(55);
+        cout << "Loading kernl2.dll..."<< endl;
+        Sleep(10);
+        cout << "Loading kernl.dll..."<< endl;
+        Sleep(10);
+        cout << "Loading bankF.dll..."<< endl;
+        Sleep(10);
+        cout << "Loading profiles.dll..."<< endl;
+        Sleep(10);
+        cout << "Loading userID(*.ASI..."<< endl;
+        Sleep(10);
+        cout << "Loading logs.txt..."<< endl;
+        Sleep(55);
+        cout << "Loading kernl2.dll..."<< endl;
+        Sleep(10);
+        cout << "Loading kernl.dll..."<< endl;
+        Sleep(10);
+        cout << "Loading bankF.dll..."<< endl;
+        Sleep(10);
+        cout << "Loading profiles.dll..."<< endl;
+        Sleep(10);
+        cout << "Loading userID(*.ASI..."<< endl;
+        Sleep(10);
+        cout << "Loading logs.txt..."<< endl;
+        Sleep(55);
+        cout << "Loading kernl2.dll..."<< endl;
+        Sleep(10);
+        cout << "Loading kernl.dll..."<< endl;
+        Sleep(10);
+        cout << "Loading bankF.dll..."<< endl;
+        Sleep(10);
+        cout << "Loading profiles.dll..."<< endl;
+        Sleep(10);
+        cout << "Loading userID(*.ASI..."<< endl;
+        Sleep(10);
+        cout << "Loading logs.txt..."<< endl;
+        Sleep(55);
+        cout << "Loading kernl2.dll..."<< endl;
+        Sleep(10);
+        cout << "Loading kernl.dll..."<< endl;
+        Sleep(10);
+        cout << "Loading bankF.dll..."<< endl;
+        Sleep(10);
+        cout << "Loading profiles.dll..."<< endl;
+        Sleep(10);
+        cout << "Loading userID(*.ASI..."<< endl;
+        Sleep(10);
+        cout << "Loading logs.txt..."<< endl;
+        Sleep(55);
+        cout << "Loading kernl2.dll..."<< endl;
+        Sleep(10);
+        cout << "Loading kernl.dll..."<< endl;
+        Sleep(10);
+        cout << "Loading bankF.dll..."<< endl;
+        Sleep(10);
+        cout << "Loading profiles.dll..."<< endl;
+        Sleep(10);
+        cout << "Loading userID(*.ASI..."<< endl;
+        Sleep(10);
+        cout << "Loading logs.txt..."<< endl;
+        Sleep(55);
+        cout << "Loading kernl2.dll..."<< endl;
+        Sleep(10);
+        cout << "Loading kernl.dll..."<< endl;
+        Sleep(10);
+        cout << "Loading bankF.dll..."<< endl;
+        Sleep(10);
+        cout << "Loading profiles.dll..."<< endl;
+        Sleep(10);
+        cout << "Loading userID(*.ASI..."<< endl;
+        Sleep(10);
+        cout << "Loading logs.txt..."<< endl;
+        Sleep(55);
+        cout << "Loading kernl2.dll..."<< endl;
+        Sleep(10);
+        cout << "Loading kernl.dll..."<< endl;
+        Sleep(210);
+        cout << "Loading bankF.dll..."<< endl;
+        Sleep(10);
+        cout << "Loading profiles.dll..."<< endl;
+        Sleep(10);
+        cout << "Loading userID(*.ASI..."<< endl;
+        Sleep(10);
+        cout << "Loading logs.txt..."<< endl;
+        Sleep(55);
+        cout << "Loading kernl2.dll..."<< endl;
+        Sleep(10);
+        cout << "Loading kernl.dll..."<< endl;
+        Sleep(10);
+        cout << "Loading bankF.dll..."<< endl;
+        Sleep(10);
+        cout << "Loading profiles.dll..."<< endl;
+        Sleep(10);
+        cout << "Loading userID(*.ASI..."<< endl;
+        Sleep(400);
+        cout << "Loading logs.txt..."<< endl;
+        Sleep(55);
+        cout << "Loading kernl2.dll..."<< endl;
+        Sleep(10);
+        cout << "Loading kernl.dll..."<< endl;
+        Sleep(10);
+        cout << "Loading bankF.dll..."<< endl;
+        Sleep(10);
+        cout << "Loading profiles.dll..."<< endl;
+        Sleep(10);
+        cout << "Loading userID(*.ASI..."<< endl;
+        Sleep(10);
+        cout << "Loading logs.txt..."<< endl;
+        Sleep(55);
+        cout << "Loading kernl2.dll..."<< endl;
+        Sleep(2400);
+
+        cout << "Success! You will be seeing and having access to the bank operator CPUS..." << endl;
+        system("PAUSE");
+        system("CLS");
+
+        firstCommunity();
+
+
+
+
+    }
+
+}
+
+
+
+
+int main()
+{
+
+    system("CLS");
+    system("color 0A");
+    bankMenu();
+
+
+
+
+
+
+
+}
+
+
